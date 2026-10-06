@@ -8,7 +8,9 @@ def p(path,q):q["access_token"]=T;return json.load(urllib.request.urlopen(urllib
 first=CAP.split("\n")[0]
 for m in g("me/media",{"fields":"caption,permalink","limit":"10"}).get("data",[]):
     if (m.get("caption") or "").startswith(first): print("SKIP already posted",m.get("permalink"));sys.exit(0)
-c=p(U+"/media",{"media_type":"REELS","video_url":VID,"caption":CAP,"share_to_feed":"true"})["id"]
+Q={"media_type":"REELS","video_url":VID,"caption":CAP,"share_to_feed":"true"}
+if M.get("thumb_offset") is not None: Q["thumb_offset"]=str(M["thumb_offset"])
+c=p(U+"/media",Q)["id"]
 s=None
 for _ in range(50):
     time.sleep(6);s=g(c,{"fields":"status_code"}).get("status_code")
