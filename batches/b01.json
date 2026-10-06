@@ -1,9 +1,12 @@
 {
  "P01": {
   "caption": "30g of protein at McDonald's, and it's still under 550 calories.\n\nQuarter Pounder with Cheese + Apple Slices + Diet Coke\n535 cal · 30g protein · 46g carbs · 26g fat\n\nSave this for your next drive-thru run.\n\nKnow the calories and macros of any order before you buy. Download hungrX, link in bio.",
-  "video_url": "https://raw.githubusercontent.com/febbinchacko7t-lgtm/hungrx-reels/main/reels/B01/MCD-B01-P01.mp4",
+  "video_url": "https://raw.githubusercontent.com/febbinchacko7t-lgtm/hungrx-reels/main/reels/B01/MCD-B01-P01-v4.mp4",
   "label": "Quarter Pounder with Cheese + Apple Slices + Diet Coke",
-  "slot_et": "2026-10-05T12:00"
+  "slot_et": "2026-10-05T12:00",
+  "thumb_offset": 3500,
+  "template": "v4",
+  "hook": "30g protein, under 550 calories?"
  },
  "P02": {
   "caption": "Your McDonald's breakfast can still fit your goals.\n\nEgg McMuffin + Hash Browns + Coffee\n455 cal · 19g protein · 49g carbs · 21g fat\n\nSave this for your next drive-thru run.\n\nKnow the calories and macros of any order before you buy. Download hungrX, link in bio.",
