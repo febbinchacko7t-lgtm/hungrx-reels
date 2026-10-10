@@ -62,5 +62,14 @@
   "video_url": "https://raw.githubusercontent.com/febbinchacko7t-lgtm/hungrx-reels/main/reels/B01/MCD-B01-P10.mp4",
   "label": "Hamburger + Small Fries + Diet Coke",
   "slot_et": "2026-10-14T11:00"
+ },
+ "P11": {
+  "caption": "23g of protein at McDonald's, still under 450 calories.\n\n10 pc Chicken McNuggets + Apple Slices + Diet Coke\n425 cal · 23g protein · 30g carbs · 24g fat\n\nDipping sauce changes the numbers, so check yours before you order.\n\nSave this for your next drive-thru run.\n\nKnow the calories and macros of any order before you buy. Download hungrX, link in bio.",
+  "video_url": "https://raw.githubusercontent.com/febbinchacko7t-lgtm/hungrx-reels/main/reels/B01/MCD-B01-P11-v9.mp4",
+  "label": "10 pc Chicken McNuggets + Apple Slices + Diet Coke",
+  "hook": "23g protein, under 450 calories?",
+  "template": "v9",
+  "thumb_offset": 3400,
+  "slot_utc": "2026-10-10T20:15"
  }
 }
