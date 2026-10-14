@@ -80,5 +80,14 @@
   "hook": "Breakfast with 20g protein?",
   "template": "v11-slot",
   "slot_utc": "2026-10-14T11:30"
+ },
+ "P13": {
+  "caption": "A Snack Wrap lunch at McDonald's, still under 450 calories.\n\nRanch Snack Wrap + Apple Slices + Diet Coke\n415 cal · 17g protein · 36g carbs · 23g fat\n\nSave this for your next drive-thru run.\n\nKnow the calories and macros of any order before you buy. Download hungrX, link in bio.",
+  "video_url": "https://raw.githubusercontent.com/febbinchacko7t-lgtm/hungrx-reels/main/reels/B01/MCD-B01-P13.mp4",
+  "cover_url": "https://raw.githubusercontent.com/febbinchacko7t-lgtm/hungrx-reels/main/reels/B01/MCD-B01-P13-cover.png",
+  "label": "Ranch Snack Wrap + Apple Slices + Diet Coke",
+  "hook": "Snack Wrap, under 450 calories?",
+  "template": "v12-fast-slot",
+  "slot_utc": "2026-10-14T22:30"
  }
 }
