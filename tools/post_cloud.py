@@ -7,6 +7,7 @@ BATCH=os.environ.get("BATCH","mcd_2026_11"); START=os.environ.get("START","2026-
 B="https://graph.instagram.com/v23.0"; LOG="posted_log.csv"
 ist=datetime.datetime.utcnow()+datetime.timedelta(hours=5,minutes=30)
 if not DRY and ist.strftime("%Y-%m-%d")<START: print("Before start date",START,"- nothing to do"); sys.exit(0)
+if not DRY and not ("03:00"<=ist.strftime("%H:%M")<="04:45"): print("Outside 3:00-4:45 AM IST window (",ist.strftime("%H:%M"),") - skip, never post in India daytime"); sys.exit(0)
 ALL=json.load(open(f"batches/{BATCH}.json"))
 done=open(LOG).read() if os.path.exists(LOG) else ""
 if not DRY and ist.strftime("%Y-%m-%d") in done: print("Already posted today (IST) - skip"); sys.exit(0)
