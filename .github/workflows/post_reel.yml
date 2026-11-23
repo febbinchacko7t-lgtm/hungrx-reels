@@ -1,11 +1,6 @@
 name: Post daily reel
 on:
-  schedule:
-    - cron: '33 21 * * *'  # 3:03 AM IST
-    - cron: '53 21 * * *'  # 3:23 AM IST
-    - cron: '13 22 * * *'  # 3:43 AM IST
-    - cron: '33 22 * * *'  # 4:03 AM IST
-    - cron: '53 22 * * *'  # 4:23 AM IST
+  # Triggered daily at 3:38 AM IST by cron-job.org (GitHub's own schedule runs hours late)
   workflow_dispatch:
     inputs:
       dry_run:
